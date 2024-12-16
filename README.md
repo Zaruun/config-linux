@@ -15,7 +15,7 @@ curl -fsSL https://raw.githubusercontent.com/Zaruun/config-linux/refs/heads/main
 # Remove default .zshrc
 rm ~/.zshrc
 # GNU Stow 
-cd ~/dotfiles && stow nvim zshrc
+cd ~/dotfiles && stow nvim zshrc ranger tmux
 ```
 
 After restarting terminal install .asdf languages (NodeJS, Go lang, Pwsh)
